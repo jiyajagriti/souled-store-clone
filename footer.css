@@ -1,0 +1,151 @@
+#socialHandle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto 72%;
+    font-size: 1rem;
+}
+
+.child ul {
+    
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+.child ul li {
+    
+    margin: 0;
+    padding: 0.3rem 0;
+}
+
+.child ul li a {
+   
+    text-decoration: none;
+    color: #58595b;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.child ul li a:hover {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    color: #ed2e30;
+}
+
+
+footer {
+    
+    background-color: #e6e7e8;
+}
+
+
+#main{
+    
+    width: 70%;
+    margin: auto;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+.child {
+    
+    text-align: left;
+    color: #58595b;
+}
+
+#socialHandle img {
+    width: 90%;
+}
+
+#socialHandle img:hover {
+    width: 95%;
+}
+
+
+#midDown{
+    
+    margin: auto;
+    width: fit-content;
+    margin-top: 3rem;
+}
+
+
+#midDown div {
+    
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+#navigation {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+
+.flexFooter{
+    border: 1px solid gray;
+    display: flex;
+    margin-top: 0.2rem;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #e11b23;
+}
+
+
+.flexFooter button {
+    width: 5%;
+    border: none;
+    background-color: #e6e7e8;
+    font-size: 1.5rem;
+    color: #e11b23;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#hiddenOne {
+    display: none;
+    border: 1px solid gray;
+    padding: 0.8rem;
+}
+
+#payPartner {
+    display: flex;
+    margin: auto;
+    font-size: 0.7rem;
+    margin: 2rem 0;
+}
+
+.payPartnerFlex{
+    display: flex;
+    align-items: center;
+}
+
+.payPartnerFlex div:nth-child(1) {
+    
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+.payPartnerFlex div:nth-child(2) {
+    width: 60%;
+}
+
+.payPartnerFlex div:nth-child(2) img {
+    width: 100%;
+}
